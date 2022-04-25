@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 
 ##### Outcome
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/2008_2019_fea_imp.png”>
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/2008_2019_fea_imp.png" width=60% height=60%>
 
 ##### Cite me
 @misc{nijingwen,
