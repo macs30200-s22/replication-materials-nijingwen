@@ -1,4 +1,4 @@
-Data.csv: data scraping from National Bureau of Statistics
+MACS30200data.csv: data scraping from National Bureau of Statistics(2008-2020)
 MACS30200 data.py: code for website scraping
 MACS30200_finalproject.py: Data Visualize
 Prov_Confirmed: The number of people confirmed covid19 in provinces, recorded in daily.
