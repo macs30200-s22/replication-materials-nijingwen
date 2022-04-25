@@ -4,3 +4,4 @@ seaborn==0.11.1
 sklearn==1.0.2
 matplotlib==3.3.4
 imblearn==0.9.0
+statsmodels==0.12.2
