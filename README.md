@@ -18,3 +18,13 @@ pip install -r requirements.txt
 
 
 ##### Outcome
+
+##### Cite me
+@misc{nijingwen,
+  author = {Ni, Jingwen.},
+  title = {Covid19 impacts on umployment rate of provinces in China},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/macs30200-s22/replication-materials-nijingwen}}
+  }
