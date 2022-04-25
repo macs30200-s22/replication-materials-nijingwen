@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ##### Outcome
 
-![]("https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/2008_2019_fea_imp.png")
+![ ](https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/2008_2019_fea_imp.png)
 
 ##### Cite me
 @misc{nijingwen,
