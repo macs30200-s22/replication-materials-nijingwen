@@ -1,7 +1,13 @@
+Jingwen Ni MACS30200 project
+Data folder
 MACS30200data.csv: data scraping from National Bureau of Statistics(2008-2020)
-MACS30200 data.py: code for website scraping
-MACS30200_finalproject.py: Data Visualize
 Prov_Confirmed: The number of people confirmed covid19 in provinces, recorded in daily.
 Prov_Death: The number of people dead covid19 in provinces, recorded in daily.
 Prov_Recovery: The number of people recovery covid19 in provinces, recorded in daily.
 2020data: all data in 2020 with control variables and covid cases
+gap.csv: the gap between predicted unemployment rate and true employment rate in 2020
+
+
+Code folder 
+MACS30200_finalproject.ipynb: Data Visualize
+MACS30200 data.py: code for website scraping
