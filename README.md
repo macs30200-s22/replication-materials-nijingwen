@@ -10,3 +10,11 @@ The code is written in Python 3.9.7 and all of its dependencies can be installed
 ```
 pip install -r requirements.txt
 ```
+### preprocessing data
+
+
+
+### Model
+
+
+### outcome
