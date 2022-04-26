@@ -31,7 +31,7 @@ pip install -r requirements.txt
 4. Lastly, I plot all data in 2020 with covid related features into the regression to see the P value and feature importance
 
 
-#### Initial Outcome: Consistent with Hypothesis
+#### Initial Outcome: Inconsistent with Hypothesis
 
 ##### 1: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
