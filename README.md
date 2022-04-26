@@ -33,15 +33,18 @@ pip install -r requirements.txt
 
 #### Initial Outcome: Consistent with Hypothesis
 
-##### 1
+##### 1: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
 
 
-##### 2
+##### 2: Fujian Province has the least gap between predicted unemployment rate while Henan has the largest gap. I will pick these two province for specific analysis
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/gap.png" width=60% height=60%>
 
-##### 3
+##### 3: Through the OLS regression for gap_value summary, the p value of deaths and recovery is smaller than 0.05 which is bigger than 0.05. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig.png" width=60% height=60%>
+
+##### 4: Through the OLS regression for unemployment summary, the p value of deaths is 0.063 and recovery is 0.063, confirmed is 0.348 which are all bigger than 0.05. Reject the hypothesis.
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/OLS_unemploy.png" width=60% height=60%>
 
 #### Cite me:
 @misc{nijingwen,
