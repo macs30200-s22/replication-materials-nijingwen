@@ -43,8 +43,8 @@ pip install -r requirements.txt
 ##### 3: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
 
-##### 4: The covid19 imopacts also has geographically difference that it is larger on west-northern part than east western part of China. 
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
+##### 4: The covid19 impacts also has geographically difference that it is larger on west-northern part than east western part of China. 
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/geo_gap.png" width=60% height=60%>
 
 
 ##### 5: Through the OLS regression for gap_value summary, the p value of deaths and recovery is smaller than 0.05 which is statistically significant
