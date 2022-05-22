@@ -34,6 +34,8 @@ pip install -r requirements.txt
 #### Initial Outcome: partially consistent with Hypothesis. In nationwide, the covid19 promote the unemployment rate. On province level, covid19 increase the unemployment rate in 22 provinces and the unemployment in 9 provinces are reduced. The covid19 imopacts also has geographically difference that it is larger on west-northern part than east western part of China. 
 
 ##### 1: Time series model predicted the unemployment rate for each province if covid19 never existed.
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/time_series.png" width=60% height=60%>
+
 
 ##### 2: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
