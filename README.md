@@ -24,27 +24,34 @@ pip install -r requirements.txt
 3. data scaling: scale features to avoid bias
 4. combine the column name with scaled array of features with dictionary
 
-#### Model: Linear Regression
+#### Model: OLS regression, Time series, linear regression
 1. Firstly, I use the data of control varibles and unemployment rate from 2008 to 2019 to train and test the regression model and get model.score around 0.88. 
 2. Secondly, I plot the data of control variables in 2020 in to the regression model and predict the unemployment rate in 2020 if there is no covid by utilizing model.predict 
 3. Thirdly, I use the predicted unemployment and true unemployment rate in 2020 to figure out the gap. 
 4. Lastly, I plot all data in 2020 with covid related features into the regression to see the P value and feature importance
 
 
-#### Initial Outcome: Inconsistent with Hypothesis
+#### Initial Outcome: partially consistent with Hypothesis. In nationwide, the covid19 promote the unemployment rate. On province level, covid19 increase the unemployment rate in 22 provinces and the unemployment in 9 provinces are reduced. The covid19 imopacts also has geographically difference that it is larger on west-northern part than east western part of China. 
 
-##### 1: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
+##### 1: Time series model predicted the unemployment rate for each province if covid19 never existed.
+
+##### 2: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
+
+##### 3: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
+
+##### 4: The covid19 imopacts also has geographically difference that it is larger on west-northern part than east western part of China. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
 
 
-##### 2: Fujian Province has the least gap between predicted unemployment rate while Henan has the largest gap. I will pick these two province for specific analysis
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/gap.png" width=60% height=60%>
-
-##### 3: Through the OLS regression for gap_value summary, the p value of deaths and recovery is smaller than 0.05 which is bigger than 0.05. 
+##### 5: Through the OLS regression for gap_value summary, the p value of deaths and recovery is smaller than 0.05 which is statistically significant
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig.png" width=60% height=60%>
 
-##### 4: Through the OLS regression for unemployment summary, the p value of deaths is 0.063 and recovery is 0.063, confirmed is 0.348 which are all bigger than 0.05. Reject the hypothesis.
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/OLS_unemploy.png" width=60% height=60%>
+##### 6: Through the linear regression for nationwide, the coefficient of covid19 recovery and confirmed are positive and of deaths are negative
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig.png" width=60% height=60%>
+
+
 
 #### Cite me:
 @misc{nijingwen,
