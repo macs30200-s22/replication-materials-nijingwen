@@ -51,7 +51,7 @@ pip install -r requirements.txt
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig.png" width=60% height=60%>
 
 ##### 6: Through the linear regression for nationwide, the coefficient of covid19 recovery and confirmed are positive and of deaths are negative
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig.png" width=60% height=60%>
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/coefficient.png" width=60% height=60%>
 
 
 
