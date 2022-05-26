@@ -29,7 +29,7 @@ pip install -r requirements.txt
 4. combine the column name with scaled array of features with dictionary
 
 #### Model: OLS regression, Time series, linear regression
-1. Firstly, I use time series to predict the unemployment rate in 2020. Figure 6 is the head of the graph. In figure 6, the x axis is time, the y axis is province’s unemployment. The whole sheet will have 31 separate graphs of 31 provinces. 
+1. Firstly, I use time series to predict the unemployment rate in 2020. Figure 1 is the head of the graph. In figure 1, the x axis is time, the y axis is province’s unemployment. The whole sheet will have 31 separate graphs of 31 provinces. 
 2. Secondly, To see whether covid is statistically significant in the gap value between the predicted and true unemployment rate in China of different provinces, I utilized OLS regression to see the p value. 
 3. Thirdly, To test the hypothesis, I divided the test into nationwide part and provinces’ part. I calculate the coefficient of variables of the nationwide by linear regression; On the provinces level, from the coefficient of time series model. There are 31 provinces which have different outcomes!
 
