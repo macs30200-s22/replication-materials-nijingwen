@@ -44,7 +44,7 @@ In the MACS30200_finalproject.ipynb
 partially consistent with Hypothesis. In nationwide, the covid19 promoted the unemployment rate. On province level, covid19 increase the unemployment rate in 22 provinces and the unemployment in 9 provinces are reduced. The covid19 imopacts also has geographically difference that it is larger on west-northern part than east western part of China. 
 
 ##### 1: Time series model predicted the unemployment rate for each province if covid19 never existed.
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/time_series.png" width=60% height=60%>
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/time_series1.png" width=60% height=60%>
 
 
 ##### 2: The covid has positive relation with the gap_value. More covid will lead to larger predicted gap between true value and predicted value. 
@@ -56,10 +56,10 @@ partially consistent with Hypothesis. In nationwide, the covid19 promoted the un
 
 
 ##### 4: Through the OLS regression for gap_value summary, the p value of deaths and recovery is smaller than 0.05 which is statistically significant
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig.png" width=60% height=60%>
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig1.png" width=60% height=60%>
 
 ##### 5: Through the linear regression for nationwide, the coefficient of covid19 recovery and confirmed are positive and of deaths are negative
-<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/coefficient.png" width=60% height=60%>
+<img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/coefficient1.png" width=60% height=60%>
 
 #### Conclusion:
 The research question was answered by the prediction of unemployment rate by time series model and the p value of OLS regression model. The p value of covid19 deaths cases and recovery cases are less than 0.05 which mean statistically significant in the gap of predicted and true unemployment rate that covid 19 has large impacts on unemployment rate in China on provinces’ level. In addition, to test the hypothesis that the covid 19 will promote the unemployment. I used linear regression model to test the nationwide level and time series to test for the provinces’ level. On nationwide level, the covid19 promoted the unemployment rate and on provinces level, covid19 promoted unemployment in 22 provinces and decrease the unemployment rate in 9 provinces. 
