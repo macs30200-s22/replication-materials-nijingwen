@@ -43,18 +43,18 @@ In the MACS30200_finalproject.ipynb
 #### Initial Outcome: 
 partially consistent with Hypothesis. In nationwide, the covid19 promoted the unemployment rate. On province level, covid19 increase the unemployment rate in 22 provinces and the unemployment in 9 provinces are reduced. The covid19 imopacts also has geographically difference that it is larger on west-northern part than east western part of China. 
 
-##### 1: Time series model predicted the unemployment rate for each province if covid19 never existed.
+##### 1: Time series model predicted the unemployment rate for each province if covid19 never existed based on past trend.
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/time_series1.png" width=60% height=60%>
 
 
-##### 2: The covid19 impacts also has geographically difference that it is larger on Northwest part than Southeast part of China. 
+##### 2: The covid19 impacts also has geographically difference that it is larger on Northwest part than Southeast part of China. The lighter color means smaller gap abd the darker color means larger gap. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/geo_gap.png" width=60% height=60%>
 
 
 ##### 3: Through the OLS regression for gap_value summary, the p value of deaths and recovery is smaller than 0.05 which is statistically significant
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/covid_OLS_sig1.png" width=60% height=60%>
 
-##### 4: Through the linear regression for nationwide, the coefficient of covid19 recovery and confirmed are positive and of deaths are negative
+##### 4: Through the linear regression for nationwide, the coefficient of covid19 recovery and confirmed are positive and of deaths are negative. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/coefficient1.png" width=60% height=60%>
 
 #### Conclusion:
