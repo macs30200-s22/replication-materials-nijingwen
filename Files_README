@@ -11,12 +11,7 @@ gap.csv: the gap between predicted unemployment rate and true employment rate in
 Code folder 
 MACS30200_finalproject.ipynb: Data Visualize
 MACS30200 data.py: code for website scraping
+covid19.twb: Tableau 
 
-Presentation PPT
-MACS30200_presentation.pptx
 
-Draft
-wk8 seconddraft
 
-Tableau:
-covid19.twb
