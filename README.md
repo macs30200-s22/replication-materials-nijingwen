@@ -51,7 +51,7 @@ partially consistent with Hypothesis. In nationwide, the covid19 promoted the un
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/feature_2020.png" width=60% height=60%>
 
 
-##### 3: The covid19 impacts also has geographically difference that it is larger on west-northern part than east western part of China. 
+##### 3: The covid19 impacts also has geographically difference that it is larger on Northwest part than Southeast part of China. 
 <img src="https://github.com/macs30200-s22/replication-materials-nijingwen/blob/main/figure/geo_gap.png" width=60% height=60%>
 
 
